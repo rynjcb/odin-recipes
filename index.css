@@ -1,11 +1,21 @@
-h1 {
-    background-color: rgb(213, 213, 47);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
+.header-title {
     background-color: aqua;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-a {
-    color: red;
+.recipes-title {
+    background-color: rgb(24, 157, 157);
+    padding: 10px;
+}
+
+.recipes {
+    display: block;
+    margin: 10px;
 }
